@@ -4,7 +4,7 @@ int main() {
 	int x;
 	double sum = 0;
 	int count = 0;
-	int number = [100];
+	int number[100];
 	scanf("%d", &x);
 	while (x != -1) {
 		number[count] = x;
